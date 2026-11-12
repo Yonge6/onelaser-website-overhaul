@@ -1,5 +1,7 @@
 # 1laser.com 整改方案与计划
 
+> **讨论版(中英切换、可评论)：** https://claude.ai/artifact/PB3yeZu1xBF9XBmCyjNArZ — 本仓库放执行用文件(页面清单、整改包、Codex 任务卡)。
+
 **目标：** 把 1laser.com 做成国际一流的激光设备品牌站，在速度、品牌一致性、选购决策、服务信任、内容五个方面达到并超过 xTool 和 Thunder Laser USA。
 
 **分工：**

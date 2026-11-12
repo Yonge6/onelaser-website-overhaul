@@ -1,0 +1,286 @@
+﻿编号,优先级,类型,页面,问题,原文 / 位置,建议改成,状态
+1,P0,SEO,全站模板(18 页),H1 带默认前缀“Collection:”——同一个模板造成，改一次全部修好,例：/collections/1-1-engineering-support：Collection: 1-1 Engineer Training and Support,改 sections/main-collection-banner.liquid；1-1 Engineer Training and Support,未修
+2,P0,SEO,全站模板(253 页),标题里有换行——同一个模板造成，改一次全部修好,例：/blogs/topic/100w-laser-engraver-and-cutter：Best 100W Laser Engraver & Cutter Guide for Small Business – OneLaser,改 layout/theme.liquid 的 <title>(换行和 – 分隔符来自模板)；Best 100W Laser Engraver & Cutter Guide for Small Business | OneLaser,未修
+3,P0,图片,/,5 张图片没有 alt 文字,IMG_0022.webp、M-banner.webp、OneLaser_XRF_WEB_AdCopy_EN_v2.webp、OneLaser_XRF_MOB_AdCopy_EN_v2.webp…,给每张图写一句描述图片内容的 alt(含机型名),未修
+4,P0,图片,/products/cobra-10-100w-co2-laser-engraver-cutter,30 张图片没有 alt 文字,support.png、warranty.png、Group.svg、engineered_in_USA.png…,给每张图写一句描述图片内容的 alt(含机型名),未修
+5,P0,图片,/products/cobra-14-130w-co2-laser-engraver-cutter,29 张图片没有 alt 文字,support.png、warranty.png、Group.svg、engineered_in_USA.png…,给每张图写一句描述图片内容的 alt(含机型名),未修
+6,P0,图片,/products/cobra-8-90w-co2-laser-engraver-cutter,29 张图片没有 alt 文字,support.png、warranty.png、Group.svg、engineered_in_USA.png…,给每张图写一句描述图片内容的 alt(含机型名),未修
+7,P0,图片,/products/hydra-13-gen-2-70w-rf-co2-dual-laser-machine,63 张图片没有 alt 文字,01-book-free-call-phone.png、02-download-brochure.png、03-lifetime-support-headset.png、04-warranty-shield-check.png…,给每张图写一句描述图片内容的 alt(含机型名),未修
+8,P0,图片,/products/hydra-16-gen-2-70w-rf-co2-dual-laser-machine,63 张图片没有 alt 文字,01-book-free-call-phone.png、02-download-brochure.png、03-lifetime-support-headset.png、04-warranty-shield-check.png…,给每张图写一句描述图片内容的 alt(含机型名),未修
+9,P0,图片,/products/hydra-7-gen-2-70w-rf-co2-dual-laser-machine,63 张图片没有 alt 文字,01-book-free-call-phone.png、02-download-brochure.png、03-lifetime-support-headset.png、04-warranty-shield-check.png…,给每张图写一句描述图片内容的 alt(含机型名),未修
+10,P0,图片,/products/hydra-9-gen-2-70w-rf-co2-dual-laser-machine,63 张图片没有 alt 文字,01-book-free-call-phone.png、02-download-brochure.png、03-lifetime-support-headset.png、04-warranty-shield-check.png…,给每张图写一句描述图片内容的 alt(含机型名),未修
+11,P0,图片,/products/onelaser-hydra-16-cabinet-dual-laser-system-with150w-glass-tube-and-38w-rf-metal-tube,20 张图片没有 alt 文字,649c4463bf83cf7be66bd4d99848c888.png、729e91b5cf654a98b7472a8cccebd78b.thumbna、3b172c5f10f8498f809c28795bc0f5b5.thumbna、4e948aa049f84896b92111f0555bb268.thumbna…,给每张图写一句描述图片内容的 alt(含机型名),未修
+12,P0,图片,/products/onelaser-hydra-7-cabinet-dual-laser-system-with-80-glass-tube-and-38w-rf-metal-tube,22 张图片没有 alt 文字,649c4463bf83cf7be66bd4d99848c888.png、729e91b5cf654a98b7472a8cccebd78b.thumbna、3b172c5f10f8498f809c28795bc0f5b5.thumbna、4e948aa049f84896b92111f0555bb268.thumbna…,给每张图写一句描述图片内容的 alt(含机型名),未修
+13,P0,图片,/products/onelaser-hydra-9-laser-engraving-machine,20 张图片没有 alt 文字,649c4463bf83cf7be66bd4d99848c888.png、729e91b5cf654a98b7472a8cccebd78b.thumbna、3b172c5f10f8498f809c28795bc0f5b5.thumbna、4e948aa049f84896b92111f0555bb268.thumbna…,给每张图写一句描述图片内容的 alt(含机型名),未修
+14,P0,图片,/products/onelaser-industrial-chiller-for-hydra-laser-engraver,3 张图片没有 alt 文字,649c4463bf83cf7be66bd4d99848c888.png、?、?,给每张图写一句描述图片内容的 alt(含机型名),未修
+15,P0,图片,/products/onelaser-xrf-desktop-laser-machine,10 张图片没有 alt 文字,support.png、warranty.png、engineered_in_USA.png、ChatGPT_Image_2026_8_4_17_53_03_1_1.jpg…,给每张图写一句描述图片内容的 alt(含机型名),未修
+16,P0,图片,/products/onelaser-xt-desktop-laser-machine,19 张图片没有 alt 文字,support.png、warranty.png、engineered_in_USA.png、no-image-2048-a2addb12.gif…,给每张图写一句描述图片内容的 alt(含机型名),未修
+17,P0,图片,/products/vertigo-vertical-laser-engraver,47 张图片没有 alt 文字,01-book-free-call-phone.png、02-download-brochure.png、03-lifetime-support-headset.png、04-warranty-shield-check.png…,给每张图写一句描述图片内容的 alt(含机型名),未修
+18,P0,拼写,/products/onelaser-xrf-desktop-laser-machine,拼写错误,01 Custom Tunbler,01 Custom Tumbler,未修
+19,P0,拼写,/products/onelaser-xrf-desktop-laser-machine,拼写错误,02 Roacks Glass,02 Rocks Glass,未修
+20,P0,文字,/products/hydra-13-gen-2-70w-rf-co2-dual-laser-machine,品牌名写成“One Laser”1 处,One Laser,OneLaser(全大写若是设计需要，请改用 CSS 大写),未修
+21,P0,文字,/products/hydra-16-gen-2-70w-rf-co2-dual-laser-machine,品牌名写成“One Laser”1 处,One Laser,OneLaser(全大写若是设计需要，请改用 CSS 大写),未修
+22,P0,文字,/products/hydra-7-gen-2-70w-rf-co2-dual-laser-machine,品牌名写成“One Laser”1 处,One Laser,OneLaser(全大写若是设计需要，请改用 CSS 大写),未修
+23,P0,文字,/products/hydra-9-gen-2-70w-rf-co2-dual-laser-machine,品牌名写成“One Laser”1 处,One Laser,OneLaser(全大写若是设计需要，请改用 CSS 大写),未修
+24,P0,文字,/products/onelaser-hydra-16-cabinet-dual-laser-system-with150w-glass-tube-and-38w-rf-metal-tube,品牌名写成“One Laser”1 处,One Laser,OneLaser(全大写若是设计需要，请改用 CSS 大写),未修
+25,P0,文字,/products/onelaser-hydra-16-cabinet-dual-laser-system-with150w-glass-tube-and-38w-rf-metal-tube,品牌名写成“Onelaser”2 处,Onelaser,OneLaser(全大写若是设计需要，请改用 CSS 大写),未修
+26,P0,文字,/products/onelaser-hydra-7-cabinet-dual-laser-system-with-80-glass-tube-and-38w-rf-metal-tube,品牌名写成“One Laser”1 处,One Laser,OneLaser(全大写若是设计需要，请改用 CSS 大写),未修
+27,P0,文字,/products/onelaser-hydra-7-cabinet-dual-laser-system-with-80-glass-tube-and-38w-rf-metal-tube,品牌名写成“Onelaser”1 处,Onelaser,OneLaser(全大写若是设计需要，请改用 CSS 大写),未修
+28,P0,文字,/products/onelaser-hydra-9-laser-engraving-machine,品牌名写成“One Laser”1 处,One Laser,OneLaser(全大写若是设计需要，请改用 CSS 大写),未修
+29,P0,文字,/products/onelaser-xrf-desktop-laser-machine,品牌名写成“One Laser”1 处,One Laser,OneLaser(全大写若是设计需要，请改用 CSS 大写),未修
+30,P0,文字,全站模板(257 页),H1 里混入隐藏文字“Image banner”——同一个模板造成，改一次全部修好,例：/blogs/topic/100w-laser-engraver-and-cutter：100W Laser Engraver and Cutter Guide for Small Business Image banner,改 图片横幅区块(image-banner)的标题模板；博客文章模板也用了它；100W Laser Engraver and Cutter Guide for Small Business,未修
+31,P0,链接,全站模板(254 页),链接经过跳转——同一个模板造成，改一次全部修好,例：/blogs/topic/laser-beam-engraving-cutting：/blogs/blogs,改 文章模板里的面包屑/返回链接；直接链到 /blogs/topic,未修
+32,P1,SEO,/collections/1-1-engineering-support,缺少 meta 描述,(空),写 140–160 字符的描述,未修
+33,P1,SEO,/collections/halloween-laser-sale-xrf-hydra9,meta 描述过长(271 字符),Celebrate Halloween with ONELASER’s biggest laser deals! Get exclusive discounts…,缩短到 160 字符以内,未修
+34,P1,SEO,/collections/halloween-laser-sale-xrf-hydra9,标题过长(79 字符，搜索结果会被截断),"ONELASER Halloween Sale | Save Big on XRF & HYDRA 9 Laser Engravers
+ – OneLaser",缩短到 60 字符以内，关键词放前面,未修
+35,P1,SEO,/collections/hydra-gen-2-rf-laser-engravers-cutters,标题过长(72 字符，搜索结果会被截断),"Hydra Gen 2 RF CO2 Laser Engravers & Cutters - Hydrid System
+ – OneLaser",缩短到 60 字符以内，关键词放前面,未修
+36,P1,SEO,/collections/hydra-gen1-gen2,缺少 meta 描述,(空),写 140–160 字符的描述,未修
+37,P1,SEO,/collections/laser-rotary-attachments,标题过长(75 字符，搜索结果会被截断),"Top PiBurn Laser Rotary Attachments: Unlock Precision Engraving
+ – OneLaser",缩短到 60 字符以内，关键词放前面,未修
+38,P1,SEO,/collections/limited-offers,页面没有 H1,(无),在主标题区块设置 H1,未修
+39,P1,SEO,/pages/bfcm26,标题过长(74 字符，搜索结果会被截断),"Black Friday Deals: Up to $3,000 Off Laser Engravers | OneLaser | OneLaser",缩短到 60 字符以内，关键词放前面,未修
+40,P1,SEO,/pages/bfcm26,标题里品牌名重复,"Black Friday Deals: Up to $3,000 Off Laser Engravers | OneLaser | OneLaser",删掉重复的 | OneLaser,未修
+41,P1,SEO,/pages/education,页面没有 H1,(无),在主标题区块设置 H1,未修
+42,P1,SEO,/pages/onelaser-rewards,页面没有 H1,(无),在主标题区块设置 H1,未修
+43,P1,SEO,/pages/sample-testing,缺少 meta 描述,(空),写 140–160 字符的描述,未修
+44,P1,SEO,/pages/sample-testing,页面没有 H1,(无),在主标题区块设置 H1,未修
+45,P1,SEO,/pages/support-and-feedback,meta 描述过长(568 字符),"At OneLaser, we believe that great products come with even greater support. Our …",缩短到 160 字符以内,未修
+46,P1,SEO,/pages/support-and-feedback,页面没有 H1,(无),在主标题区块设置 H1,未修
+47,P1,SEO,/products/1-8-glitter-acrylic-sheets-12-12-4-pack-for-laser-engraving-cutting,标题过长(76 字符，搜索结果会被截断),"Glitter Acrylic Sheets – 1/8"", 12x12"", 4 Pack for Laser Projects
+ – OneLaser",缩短到 60 字符以内，关键词放前面,未修
+48,P1,SEO,/products/1-8-mirror-acrylic-sheets-12-12-4-pack-for-laser-engraving-cutting,标题过长(72 字符，搜索结果会被截断),"Mirror Acrylic Sheets (1/8"", 12×12"", 4 Pack) from MakerDepot
+ – OneLaser",缩短到 60 字符以内，关键词放前面,未修
+49,P1,图片,/collections/acrylic-sheets-for-laser-engraving-cutting,4 张图片没有 alt 文字,10_a9b7bf82-9503-47d8-a6b7-b0c038a788af.、maker-depot-mirror-acrylic-sheets-pink-m、glitter-acrylic-sheets-glittery-gold-sil、onelaser-translucent-acrylic-01-hero_613,给每张图写一句描述图片内容的 alt(含机型名),未修
+50,P1,图片,/collections/chiller-base,3 张图片没有 alt 文字,base.png、Industrial_chiller_Structure.png、dc0a0581cb17f1179c87de5dc5386c0e.png,给每张图写一句描述图片内容的 alt(含机型名),未修
+51,P1,图片,/collections/fume-extractors,7 张图片没有 alt 文字,MICRO_FILTRABOX_1.png、COMPACT_X_FILTRABOX_1.png、FILTRABOX_EXPAND_X-2.png、FiltraBox_Compact_X_1.jpg…,给每张图写一句描述图片内容的 alt(含机型名),未修
+52,P1,图片,/collections/hydra-gen1-gen2,7 张图片没有 alt 文字,Hydra_7-2.png、Hydra_9-2.png、Hydra_16-2.png、OneLaser-Hydra_Gen2-hydra-hero-01.webp…,给每张图写一句描述图片内容的 alt(含机型名),未修
+53,P1,图片,/collections/laser-focus-lens-mirrors,6 张图片没有 alt 文字,gallery-03-optics-set.webp、gallery-02-rear-angle.webp、hydra-2-inch.webp、gallery-02-hand-held_379890ca-3331-4c25-…,给每张图写一句描述图片内容的 alt(含机型名),未修
+54,P1,图片,/collections/laser-rotary-attachments,7 张图片没有 alt 文字,piburn-grip-best-chuck-laser-rotary-1.jp、multi-function-rotary-axis-57-motor-hydr、piburn-lite-rotary-laser-engraver-onelas、piburn-omni-2-advanced-laser-rotary-1.pn…,给每张图写一句描述图片内容的 alt(含机型名),未修
+55,P1,图片,/collections/leatherette-for-laser-engraving-cutting,4 张图片没有 alt 文字,onelaser-no-foam-leatherette-01-hero.web、onelaser-heritage-leatherette-01-hero.we、2_4db0075d-4e26-42d7-a038-fc85f10f40d1.w、2_21c261ab-a413-4277-a418-5f0a1c1eaa90.w,给每张图写一句描述图片内容的 alt(含机型名),未修
+56,P1,图片,/collections/march-madness,3 张图片没有 alt 文字,1920x900-3840-1800-_button.png、H7_.676x520.png、H7_.676x520.png,给每张图写一句描述图片内容的 alt(含机型名),未修
+57,P1,图片,/collections/materials-for-laser-engraving-cutting,8 张图片没有 alt 文字,onelaser-no-foam-leatherette-01-hero.web、onelaser-heritage-leatherette-01-hero.we、10_a9b7bf82-9503-47d8-a6b7-b0c038a788af.、maker-depot-mirror-acrylic-sheets-pink-m…,给每张图写一句描述图片内容的 alt(含机型名),未修
+58,P1,图片,/pages/bfcm26,3 张图片没有 alt 文字,bfcm26-assets-gift.jpg、bfcm26-assets-scene-cobra.webp、bfcm26-assets-scenes-lineup.jpg,给每张图写一句描述图片内容的 alt(含机型名),未修
+59,P1,图片,/pages/community-videos,23 张图片没有 alt 文字,community-videos.webp、63703f27ede047c9b1dc50f0497ef1b0.thumbna、da4b5a7149ff4c3bbc0643fe4ba896f7.thumbna、9a3abba1743b492a95d0908f187ad773.thumbna…,给每张图写一句描述图片内容的 alt(含机型名),未修
+60,P1,图片,/pages/education,117 张图片没有 alt 文字,OneLaser_Hydra_Gen2_WEB_AdCopy_Education、Flexible_Solutions-K_12_Schools.webp、Flexible_Solutions-Makerspaces_Labs.webp、Flexible_Solutions-Colleges_Universities…,给每张图写一句描述图片内容的 alt(含机型名),未修
+61,P1,图片,/pages/financing,3 张图片没有 alt 文字,FCB_HOR_4C_reg_RGB.png、FCB_HOR_4C_reg_RGB.png、109.png,给每张图写一句描述图片内容的 alt(含机型名),未修
+62,P1,图片,/pages/laser-engraving-community,3 张图片没有 alt 文字,3D37BB55-2C35-4865-A965-B7F0753EB8A5.png、AD43AD9F-A326-48a0-87B9-146C9C9998FE.png、button.svg,给每张图写一句描述图片内容的 alt(含机型名),未修
+63,P1,图片,/pages/machine-comparison,8 张图片没有 alt 文字,1_feb54a6a-5a39-4842-a2a9-34443895dd1b.j、X.png、Mask_group.png、172384480ef3c117a7f43dc753755e92.jpg…,给每张图写一句描述图片内容的 alt(含机型名),未修
+64,P1,图片,/pages/sample-testing,7 张图片没有 alt 文字,onelaser_workshop2.png、onelaser_workshop2.png、material_test.png、Hands-On_Experience_173b047f-2ec3-47cb-9…,给每张图写一句描述图片内容的 alt(含机型名),未修
+65,P1,图片,/pages/support-and-feedback,3 张图片没有 alt 文字,logo_single_number_b2954d39-f4bf-4443-92、logo_single_number_b2954d39-f4bf-4443-92、logo_single_number_b2954d39-f4bf-4443-92,给每张图写一句描述图片内容的 alt(含机型名),未修
+66,P1,图片,/pages/trade-up,73 张图片没有 alt 文字,02_2233f6a2-a996-49d1-a208-ea82ecc927b7.、FFA987.png、04_7b11b24f-f97b-429d-bb4d-d0aea1eff113.、fe52b309-dcd9-4eca-9405-f052d20d5a77.png…,给每张图写一句描述图片内容的 alt(含机型名),未修
+67,P1,图片,/pages/troubleshooting,3 张图片没有 alt 文字,FAQs.jpg、OneLaser-Video-Media.jpg、One_Laser_Sales_Support.jpg,给每张图写一句描述图片内容的 alt(含机型名),未修
+68,P1,图片,/pages/wood-laser-engraving-cutting-ideas,30 张图片没有 alt 文字,wood_laser_engraving_cutting_ideas_1.png、9_bf327aa9-a3b7-41c9-a37f-117b6a892d1a.p、Plywood_70846d87-9bb0-436b-bfd8-c2560a1a、Maple_abca8fe3-c89c-464a-965e-2129c988b7…,给每张图写一句描述图片内容的 alt(含机型名),未修
+69,P1,图片,/products/2-inch-focal-lens-laser-engraver,5 张图片没有 alt 文字,gallery-02-hand-held.webp、gallery-03-optics-set.webp、gallery-04-reflection.webp、04-focal-lens.webp…,给每张图写一句描述图片内容的 alt(含机型名),未修
+70,P1,图片,/products/25mm-co2-laser-beam-combiner-lens,5 张图片没有 alt 文字,03-beam-combiner.webp、gallery-02-with-box.webp、gallery-03-rear-angle.webp、gallery-04-hand-held.webp…,给每张图写一句描述图片内容的 alt(含机型名),未修
+71,P1,图片,/products/3x-laser-beam-expander,4 张图片没有 alt 文字,02-beam-expander.webp、gallery-02-left-front.webp、gallery-03-upright.webp、649c4463bf83cf7be66bd4d99848c888.png,给每张图写一句描述图片内容的 alt(含机型名),未修
+72,P1,图片,/products/air-assist-for-laser-engraver-cutter,6 张图片没有 alt 文字,649c4463bf83cf7be66bd4d99848c888.png、?、?、?…,给每张图写一句描述图片内容的 alt(含机型名),未修
+73,P1,图片,/products/magswitch-lens-holder-replacement-kit,4 张图片没有 alt 文字,06-magswitch-holder.webp、gallery-02-rear-angle.webp、gallery-03-magnetic-part.webp、649c4463bf83cf7be66bd4d99848c888.png,给每张图写一句描述图片内容的 alt(含机型名),未修
+74,P1,图片,/products/mirror-mounting-bracket-replacement-kit,5 张图片没有 alt 文字,05-mirror-kit.webp、gallery-02-hand-held_379890ca-3331-4c25-、gallery-03-reflection.webp、gallery-04-mounting-plate.webp…,给每张图写一句描述图片内容的 alt(含机型名),未修
+75,P1,图片,/products/piburn-grip-for-onelaser,3 张图片没有 alt 文字,649c4463bf83cf7be66bd4d99848c888.png、d75c740ecf284f6e91404e74b7c6c0c5.thumbna、f1cf3d746e61473f903f3ef9aeff8369.thumbna,给每张图写一句描述图片内容的 alt(含机型名),未修
+76,P1,文字,/pages/about-us,品牌名写成“One Laser”2 处,One Laser,OneLaser(全大写若是设计需要，请改用 CSS 大写),未修
+77,P1,文字,/pages/machine-comparison,品牌名写成“One Laser”1 处,One Laser,OneLaser(全大写若是设计需要，请改用 CSS 大写),未修
+78,P1,文字,/pages/machine-comparison,品牌名写成“Onelaser”1 处,Onelaser,OneLaser(全大写若是设计需要，请改用 CSS 大写),未修
+79,P1,链接,/products/piburn-galvo-grip-rotary,链接指向已删除的页面/商品，被跳到首页或全部商品,/products/laser-rotary-piburn-grip-2,改链到现在对应的页面,未修
+80,P2,SEO,/blogs/topic/apa-expo,标题里是过期年份 2025,APA 2025 Recap: OneLaser’s Role in Revolutionizing Laser Technology,改成 2026 或去掉年份,未修
+81,P2,SEO,/blogs/topic/best-affordable-laser-engraving-machines,meta 描述过长(320 字符),"When evaluating affordability in laser engravers, many gravitate toward the lowe…",缩短到 160 字符以内,未修
+82,P2,SEO,/blogs/topic/best-laser-engraver-for-beginners,标题里是过期年份 2025,Best Laser Engraver for Beginners 2025 – OneLaser,改成 2026 或去掉年份,未修
+83,P2,SEO,/blogs/topic/best-laser-engraver-for-glass-etching,标题里是过期年份 2025,"Best Laser Engraver for Glass Etching 2025
+ – OneLaser",改成 2026 或去掉年份,未修
+84,P2,SEO,/blogs/topic/best-laser-engraving-software,标题里是过期年份 2025,"Best Laser Engraving Software 2025 Ultimate Comparison
+ – OneLaser",改成 2026 或去掉年份,未修
+85,P2,SEO,/blogs/topic/buying-a-laser-engraver,标题里是过期年份 2025,10 Tips for Buying a Laser Engraver/Cutter in 2025 – OneLaser,改成 2026 或去掉年份,未修
+86,P2,SEO,/blogs/topic/diy-acrylic-night-light,标题过长(76 字符，搜索结果会被截断),"How to Make a DIY Acrylic Night Light (Step-by-Step Laser Guide)
+ – OneLaser",缩短到 60 字符以内，关键词放前面,未修
+87,P2,SEO,/blogs/topic/easter-laser-engraving-ideas,标题过长(76 字符，搜索结果会被截断),"Top 30 Easter Laser Engraving Ideas for Selling & Gifting [2026]
+ – OneLaser",缩短到 60 字符以内，关键词放前面,未修
+88,P2,SEO,/blogs/topic/fox-news-top-holiday-gift,标题里是过期年份 2024,Why FOX News Calls OneLaser 2024's Top Holiday Gift?,改成 2026 或去掉年份,未修
+89,P2,SEO,/blogs/topic/guide-to-laser-air-assist-pumps,标题过长(73 字符，搜索结果会被截断),"Laser Air Assist Pumps: Airflow for Perfect Cuts & Engravings
+ – OneLaser",缩短到 60 字符以内，关键词放前面,未修
+90,P2,SEO,/blogs/topic/how-to-engrave-glass-bottle,meta 描述过长(174 字符),Learn how to engrave glass bottles the right way — from black paint prep to base…,缩短到 160 字符以内,未修
+91,P2,SEO,/blogs/topic/how-to-grow-laser-business,标题过长(72 字符，搜索结果会被截断),"How to Grow a Laser Business: Real Tips from Laser Community
+ – OneLaser",缩短到 60 字符以内，关键词放前面,未修
+92,P2,SEO,/blogs/topic/laser-beam-compression,标题过长(72 字符，搜索结果会被截断),"Laser Beam Compression: Why It Matters for Engraving Quality
+ – OneLaser",缩短到 60 字符以内，关键词放前面,未修
+93,P2,SEO,/blogs/topic/laser-cut-acrylic-ideas,标题过长(72 字符，搜索结果会被截断),"50 Laser-Cut Acrylic Ideas to Inspire Your Next Project 2026
+ – OneLaser",缩短到 60 字符以内，关键词放前面,未修
+94,P2,SEO,/blogs/topic/laser-cut-controller-stand,标题过长(74 字符，搜索结果会被截断),"Laser Cut Controller Stand Business: High-Margin Product Guide
+ – OneLaser",缩短到 60 字符以内，关键词放前面,未修
+95,P2,SEO,/blogs/topic/laser-cut-keychains,标题过长(74 字符，搜索结果会被截断),"How to Make a Laser Cut Keychain [Complete Guide & Free Files]
+ – OneLaser",缩短到 60 字符以内，关键词放前面,未修
+96,P2,SEO,/blogs/topic/laser-cutting-vs-blade-cutting,标题过长(72 字符，搜索结果会被截断),"Laser Cutting vs Blade Cutting: Which is Right for Business?
+ – OneLaser",缩短到 60 字符以内，关键词放前面,未修
+97,P2,SEO,/blogs/topic/laser-engraved-spoons,标题里是过期年份 2025,Laser Engraved Spoons: Ultimate Guide 2025 - OneLaser,改成 2026 或去掉年份,未修
+98,P2,SEO,/blogs/topic/laser-engraver-for-schools,标题过长(72 字符，搜索结果会被截断),"Laser Engraver for Schools: Choosing the Laser for Classroom
+ – OneLaser",缩短到 60 字符以内，关键词放前面,未修
+99,P2,SEO,/blogs/topic/laser-engraving-projects,标题过长(73 字符，搜索结果会被截断),"60+ Laser Engraving Projects Perfect for Gifting/Selling 2026
+ – OneLaser",缩短到 60 字符以内，关键词放前面,未修
+100,P2,SEO,/blogs/topic/laser-rotary-settings,标题过长(73 字符，搜索结果会被截断),"Laser Rotary Settings for Laser Engravers [Easy Step-by-Step]
+ – OneLaser",缩短到 60 字符以内，关键词放前面,未修
+101,P2,SEO,/blogs/topic/lpi-and-dpi,标题过长(74 字符，搜索结果会被截断),"DPI and LPI in Laser Engraving: How to Compare True Resolution
+ – OneLaser",缩短到 60 字符以内，关键词放前面,未修
+102,P2,SEO,/blogs/topic/mdf-laser-engraving-cutting,标题里是过期年份 2025,"MDF Laser Engraving and Cutting - Complete Guide 2025
+ – OneLaser",改成 2026 或去掉年份,未修
+103,P2,SEO,/blogs/topic/mother-s-day-laser-engraving-cut-ideas,meta 描述过长(320 字符),"If you're searching for meaningful, handmade gifts this spring, Mother’s Day las…",缩短到 160 字符以内,未修
+104,P2,SEO,/blogs/topic/next-level-laser-conference,标题里是过期年份 2025,OneLaser at Next Level Laser Conference 2025,改成 2026 或去掉年份,未修
+105,P2,SEO,/blogs/topic/onelaser-pepcom,标题里是过期年份 2025,OneLaser Debuts Game-Changing Laser Machines at Pepcom 2025,改成 2026 或去掉年份,未修
+106,P2,SEO,/blogs/topic/onelaser-xrf-review-best-of-ces,标题里是过期年份 2025,OneLaser XRF - Reviewed by Mark Ellis - The Best of CES 2025,改成 2026 或去掉年份,未修
+107,P2,SEO,/blogs/topic/raster-engraving-vs-vector-engraving,标题里是过期年份 2025,"Vector vs. Raster Engraving - Ultimate Comparison 2025
+ – OneLaser",改成 2026 或去掉年份,未修
+108,P2,SEO,/blogs/topic/relief-engraving,meta 描述过长(320 字符),"Relief laser engraving has become a cornerstone in modern craftsmanship, offerin…",缩短到 160 字符以内,未修
+109,P2,SEO,/blogs/topic/start-laser-engraving-at-home,meta 描述过长(320 字符),"If you want to start laser engraving at home, there are no longer any problems t…",缩短到 160 字符以内,未修
+110,P2,SEO,/blogs/topic/start-laser-engraving-business,标题里是过期年份 2025,"Start a Laser Engraving Business – Real Case Study 2025
+ – OneLaser",改成 2026 或去掉年份,未修
+111,P2,SEO,/blogs/topic/thanksgiving-laser-cut-engraving-ideas-projects,标题过长(72 字符，搜索结果会被截断),"30 Thanksgiving Laser Cut & Engraving Ideas/Projects in 2026
+ – OneLaser",缩短到 60 字符以内，关键词放前面,未修
+112,P2,SEO,/blogs/topic/traditional-engraving-vs-laser-engraving,标题过长(73 字符，搜索结果会被截断),"Traditional Engraving vs Laser Engraving: Complete Comparison
+ – OneLaser",缩短到 60 字符以内，关键词放前面,未修
+113,P2,SEO,/blogs/topic/what-is-rf-laser-tube,标题过长(74 字符，搜索结果会被截断),"RF Laser Tube Explained: How It Works, Benefits & Applications
+ – OneLaser",缩短到 60 字符以内，关键词放前面,未修
+114,P2,图片,/blogs/topic/3d-laser-carving,1 张图片没有 alt 文字,Photorealistic_3D_engraving.jpg,给每张图写一句描述图片内容的 alt(含机型名),未修
+115,P2,图片,/blogs/topic/4th-of-july-diy-ideas,2 张图片没有 alt 文字,3_Coaster_Sets.jpg、20_Home_of_the_Free_Porch_Signs.jpg,给每张图写一句描述图片内容的 alt(含机型名),未修
+116,P2,图片,/blogs/topic/best-affordable-laser-engraving-machines,1 张图片没有 alt 文字,Best_Affordable_Laser_Engraving_Machines,给每张图写一句描述图片内容的 alt(含机型名),未修
+117,P2,图片,/blogs/topic/best-laser-machines-with-pass-through,1 张图片没有 alt 文字,Hydra_Gen2-9-1100x678-1.png,给每张图写一句描述图片内容的 alt(含机型名),未修
+118,P2,图片,/blogs/topic/diy-acrylic-night-light,1 张图片没有 alt 文字,no-image-2048-a2addb12_200x200.gif,给每张图写一句描述图片内容的 alt(含机型名),未修
+119,P2,图片,/blogs/topic/diy-laser-engraved-whiskey-glass,1 张图片没有 alt 文字,engraved_whiskey_glass_4.jpg,给每张图写一句描述图片内容的 alt(含机型名),未修
+120,P2,图片,/blogs/topic/how-to-laser-engrave-a-wooden-box,1 张图片没有 alt 文字,Laser_Engraved_Wooden_Box_8.png,给每张图写一句描述图片内容的 alt(含机型名),未修
+121,P2,图片,/blogs/topic/how-to-make-a-store-sign,1 张图片没有 alt 文字,no-image-2048-a2addb12_200x200.gif,给每张图写一句描述图片内容的 alt(含机型名),未修
+122,P2,图片,/blogs/topic/how-to-start-a-laser-cutting-business,1 张图片没有 alt 文字,How_to_Start_a_Laser_Cutting_Business.jp,给每张图写一句描述图片内容的 alt(含机型名),未修
+123,P2,图片,/blogs/topic/how-to-use-piburn-rotary,2 张图片没有 alt 文字,no-image-2048-a2addb12_200x200.gif、no-image-2048-a2addb12_200x200.gif,给每张图写一句描述图片内容的 alt(含机型名),未修
+124,P2,图片,/blogs/topic/hydra-gen2-and-hydra-series-comparison,1 张图片没有 alt 文字,lQDPKcXjcPAy65vNA4TNB4CwDtphXuwjUr4JQyzX,给每张图写一句描述图片内容的 alt(含机型名),未修
+125,P2,图片,/blogs/topic/ideas-behind-vertigo,1 张图片没有 alt 文字,Vertigo_machine_2.jpg,给每张图写一句描述图片内容的 alt(含机型名),未修
+126,P2,图片,/blogs/topic/laser-cut-calendar,1 张图片没有 alt 文字,no-image-2048-a2addb12_200x200.gif,给每张图写一句描述图片内容的 alt(含机型名),未修
+127,P2,图片,/blogs/topic/laser-cut-christmas-tree-ornaments,1 张图片没有 alt 文字,no-image-2048-a2addb12_200x200.gif,给每张图写一句描述图片内容的 alt(含机型名),未修
+128,P2,图片,/blogs/topic/laser-cut-clock,1 张图片没有 alt 文字,no-image-2048-a2addb12_200x200.gif,给每张图写一句描述图片内容的 alt(含机型名),未修
+129,P2,图片,/blogs/topic/laser-cut-coaster-and-holder,1 张图片没有 alt 文字,Laser_Cut_Coaster_holder_480x480.jpg,给每张图写一句描述图片内容的 alt(含机型名),未修
+130,P2,图片,/blogs/topic/laser-cut-controller-stand,1 张图片没有 alt 文字,no-image-2048-a2addb12_200x200.gif,给每张图写一句描述图片内容的 alt(含机型名),未修
+131,P2,图片,/blogs/topic/laser-cut-headphone-stand,1 张图片没有 alt 文字,no-image-2048-a2addb12_200x200.gif,给每张图写一句描述图片内容的 alt(含机型名),未修
+132,P2,图片,/blogs/topic/laser-cut-keychains,1 张图片没有 alt 文字,no-image-2048-a2addb12_200x200.gif,给每张图写一句描述图片内容的 alt(含机型名),未修
+133,P2,图片,/blogs/topic/laser-engraved-thermos,2 张图片没有 alt 文字,Step_4_Align.jpg、Step_4_Start_the_Engraving_Process.jpg,给每张图写一句描述图片内容的 alt(含机型名),未修
+134,P2,图片,/blogs/topic/laser-engraved-valentine-gifts,1 张图片没有 alt 文字,Acrylic_Heart_LED_Night_Light_1.png,给每张图写一句描述图片内容的 alt(含机型名),未修
+135,P2,图片,/blogs/topic/laser-engraved-wine-bottles,1 张图片没有 alt 文字,Laser_engraved_wine_bottles_2.jpg,给每张图写一句描述图片内容的 alt(含机型名),未修
+136,P2,图片,/blogs/topic/laser-engraver-for-schools,1 张图片没有 alt 文字,3__XT_600x600.png,给每张图写一句描述图片内容的 alt(含机型名),未修
+137,P2,图片,/blogs/topic/laser-engravers-for-photo-engraving-on-wood,3 张图片没有 alt 文字,DPI_in_Laser_Engraving.jpg、Laser_Engraving_Precision.jpg、no-image-2048-a2addb12_200x200.gif,给每张图写一句描述图片内容的 alt(含机型名),未修
+138,P2,图片,/blogs/topic/laser-engraving-acrylic,1 张图片没有 alt 文字,Designing_the_QR_Code.jpg,给每张图写一句描述图片内容的 alt(含机型名),未修
+139,P2,图片,/blogs/topic/laser-engraving-cutting-acrylic-tips,1 张图片没有 alt 文字,DPI_in_Laser_Engraving.jpg,给每张图写一句描述图片内容的 alt(含机型名),未修
+140,P2,图片,/blogs/topic/laser-engraving-experts,1 张图片没有 alt 文字,?,给每张图写一句描述图片内容的 alt(含机型名),未修
+141,P2,图片,/blogs/topic/laser-engraving-leather-tips,3 张图片没有 alt 文字,Laser_Engraving_Leather_ec71a932-a92d-4a、1_feb54a6a-5a39-4842-a2a9-34443895dd1b.j、wuanniu_13c1b490-5225-4742-a5e8-754608e7,给每张图写一句描述图片内容的 alt(含机型名),未修
+142,P2,图片,/blogs/topic/laser-engraving-trainings-courses,1 张图片没有 alt 文字,no-image-2048-a2addb12_200x200.gif,给每张图写一句描述图片内容的 alt(含机型名),未修
+143,P2,图片,/blogs/topic/laser-head-stops-moving,1 张图片没有 alt 文字,no-image-2048-a2addb12_200x200.gif,给每张图写一句描述图片内容的 alt(含机型名),未修
+144,P2,图片,/blogs/topic/laser-machines-for-large-format-wall-art,1 张图片没有 alt 文字,make_a_store_sign_1.jpg,给每张图写一句描述图片内容的 alt(含机型名),未修
+145,P2,图片,/blogs/topic/laser-network-connection,1 张图片没有 alt 文字,no-image-2048-a2addb12_200x200.gif,给每张图写一句描述图片内容的 alt(含机型名),未修
+146,P2,图片,/blogs/topic/magswitch-laser-lens-change,1 张图片没有 alt 文字,97c231a30ab64b4b9a6973ab54d286c4.thumbna,给每张图写一句描述图片内容的 alt(含机型名),未修
+147,P2,图片,/blogs/topic/mother-s-day-laser-engraving-cut-ideas,1 张图片没有 alt 文字,AD_4nXeM7rKMuQb9wcTox1qlF_E_cNd5YoEHddbj,给每张图写一句描述图片内容的 alt(含机型名),未修
+148,P2,图片,/blogs/topic/nema-5-20p-electrical-requirements,1 张图片没有 alt 文字,no-image-2048-a2addb12_200x200.gif,给每张图写一句描述图片内容的 alt(含机型名),未修
+149,P2,图片,/blogs/topic/relief-engraving,1 张图片没有 alt 文字,Laser_Engrave_Relief.jpg,给每张图写一句描述图片内容的 alt(含机型名),未修
+150,P2,图片,/blogs/topic/review-hobby-laser-engraver,1 张图片没有 alt 文字,no-image-2048-a2addb12_200x200.gif,给每张图写一句描述图片内容的 alt(含机型名),未修
+151,P2,图片,/blogs/topic/thanksgiving-laser-cut-engraving-ideas-projects,2 张图片没有 alt 文字,7._Layered_Give_Thanks_Wall_Sign_480x480、23._Memorial_Empty_Chair_Plaque_480x480.,给每张图写一句描述图片内容的 alt(含机型名),未修
+152,P2,图片,/blogs/topic/traditional-engraving-vs-laser-engraving,2 张图片没有 alt 文字,Traditional_Engraving.gif、CO2_Laser_9f7f16a4-de3a-44fa-b906-731aed,给每张图写一句描述图片内容的 alt(含机型名),未修
+153,P2,图片,/blogs/topic/upgrade-laser-engraver-with-air-assist,1 张图片没有 alt 文字,no-image-2048-a2addb12_200x200.gif,给每张图写一句描述图片内容的 alt(含机型名),未修
+154,P2,图片,/blogs/topic/vertigo-38w-rf-co-laser-for-glass-engraving,1 张图片没有 alt 文字,2a344c59049041acdbf5c9537c52ec56_origina,给每张图写一句描述图片内容的 alt(含机型名),未修
+155,P2,图片,/blogs/topic/what-is-the-rf-laser-cutter,2 张图片没有 alt 文字,rf_laser_cutter.jpg、Glass_Tube_CO2_laser.jpg,给每张图写一句描述图片内容的 alt(含机型名),未修
+156,P2,图片,/collections/fiber-leatherette-for-laser-engraving-cutting,1 张图片没有 alt 文字,2_4db0075d-4e26-42d7-a038-fc85f10f40d1.w,给每张图写一句描述图片内容的 alt(含机型名),未修
+157,P2,图片,/collections/frosted-matte-acrylic-sheets-for-laser-engraving-cutting,1 张图片没有 alt 文字,10_a9b7bf82-9503-47d8-a6b7-b0c038a788af.,给每张图写一句描述图片内容的 alt(含机型名),未修
+158,P2,图片,/collections/glitter-acrylic-sheets-for-laser-engraving-cutting,1 张图片没有 alt 文字,glitter-acrylic-sheets-glittery-gold-sil,给每张图写一句描述图片内容的 alt(含机型名),未修
+159,P2,图片,/collections/halloween-laser-sale-xrf-hydra9,2 张图片没有 alt 文字,X_-19_png.png、Hydra_9-2.png,给每张图写一句描述图片内容的 alt(含机型名),未修
+160,P2,图片,/collections/heritage-leatherette-for-laser-engraving-cutting,1 张图片没有 alt 文字,onelaser-heritage-leatherette-01-hero.we,给每张图写一句描述图片内容的 alt(含机型名),未修
+161,P2,图片,/collections/laser-accessories,1 张图片没有 alt 文字,accessories-gray-studio-hero.jpg,给每张图写一句描述图片内容的 alt(含机型名),未修
+162,P2,图片,/collections/limited-offers,1 张图片没有 alt 文字,OneLaser_Hydra_WEB_AdCopy_Clearance_EN_v,给每张图写一句描述图片内容的 alt(含机型名),未修
+163,P2,图片,/collections/no-foam-leatherette-for-laser-engraving-cutting,1 张图片没有 alt 文字,onelaser-no-foam-leatherette-01-hero.web,给每张图写一句描述图片内容的 alt(含机型名),未修
+164,P2,图片,/collections/translucent-acrylic-sheets-for-laser-engraving-cutting,1 张图片没有 alt 文字,onelaser-translucent-acrylic-01-hero_613,给每张图写一句描述图片内容的 alt(含机型名),未修
+165,P2,图片,/collections/x-series,2 张图片没有 alt 文字,X_-19_png.png、X_-15_png.png,给每张图写一句描述图片内容的 alt(含机型名),未修
+166,P2,图片,/pages/about-us,1 张图片没有 alt 文字,e64db463d5ba46d03b8f3f0f59dc4e86.webp,给每张图写一句描述图片内容的 alt(含机型名),未修
+167,P2,图片,/pages/after-sales-service,2 张图片没有 alt 文字,#、portalLogo.de847024ebc0131731a3.png,给每张图写一句描述图片内容的 alt(含机型名),未修
+168,P2,图片,/pages/demoroom,1 张图片没有 alt 文字,button.svg,给每张图写一句描述图片内容的 alt(含机型名),未修
+169,P2,图片,/pages/laser-cutter-engraving-settings-for-different-materials,1 张图片没有 alt 文字,Laser_Cutter_Engraving_Setting.png,给每张图写一句描述图片内容的 alt(含机型名),未修
+170,P2,图片,/pages/makerboost,1 张图片没有 alt 文字,screenshot_2026-03-10_10-32-43.png,给每张图写一句描述图片内容的 alt(含机型名),未修
+171,P2,图片,/pages/pre-order-backorder-policy,1 张图片没有 alt 文字,Policy.jpg,给每张图写一句描述图片内容的 alt(含机型名),未修
+172,P2,图片,/pages/privacy-policy,1 张图片没有 alt 文字,Policy.jpg,给每张图写一句描述图片内容的 alt(含机型名),未修
+173,P2,图片,/pages/refund-policy,1 张图片没有 alt 文字,Policy.jpg,给每张图写一句描述图片内容的 alt(含机型名),未修
+174,P2,图片,/pages/sales-consultation,1 张图片没有 alt 文字,button.svg,给每张图写一句描述图片内容的 alt(含机型名),未修
+175,P2,图片,/pages/shipping-policy,1 张图片没有 alt 文字,Policy.jpg,给每张图写一句描述图片内容的 alt(含机型名),未修
+176,P2,图片,/pages/terms-of-service,1 张图片没有 alt 文字,Policy.jpg,给每张图写一句描述图片内容的 alt(含机型名),未修
+177,P2,图片,/pages/user-manual,2 张图片没有 alt 文字,Hydra_13_User_Manual.jpg、button.svg,给每张图写一句描述图片内容的 alt(含机型名),未修
+178,P2,图片,/pages/warranty-policy,1 张图片没有 alt 文字,Policy.jpg,给每张图写一句描述图片内容的 alt(含机型名),未修
+179,P2,图片,/products/100-gift-card,1 张图片没有 alt 文字,100-silver.webp,给每张图写一句描述图片内容的 alt(含机型名),未修
+180,P2,图片,/products/1000-gift-card,1 张图片没有 alt 文字,1000-obsidian-platinum.webp,给每张图写一句描述图片内容的 alt(含机型名),未修
+181,P2,图片,/products/150-gift-card,1 张图片没有 alt 文字,150-champagne.webp,给每张图写一句描述图片内容的 alt(含机型名),未修
+182,P2,图片,/products/200-gift-card,1 张图片没有 alt 文字,200-titanium.webp,给每张图写一句描述图片内容的 alt(含机型名),未修
+183,P2,图片,/products/300-gift-card,1 张图片没有 alt 文字,300-black-gold.webp,给每张图写一句描述图片内容的 alt(含机型名),未修
+184,P2,图片,/products/co2-glass-laser-tube,1 张图片没有 alt 文字,649c4463bf83cf7be66bd4d99848c888.png,给每张图写一句描述图片内容的 alt(含机型名),未修
+185,P2,图片,/products/co2-rf-metal-laser-tube,1 张图片没有 alt 文字,649c4463bf83cf7be66bd4d99848c888.png,给每张图写一句描述图片内容的 alt(含机型名),未修
+186,P2,图片,/products/compact-x-filtrabox-replacement-filters,1 张图片没有 alt 文字,649c4463bf83cf7be66bd4d99848c888.png,给每张图写一句描述图片内容的 alt(含机型名),未修
+187,P2,图片,/products/cw-5200-industrial-water-chiller,1 张图片没有 alt 文字,649c4463bf83cf7be66bd4d99848c888.png,给每张图写一句描述图片内容的 alt(含机型名),未修
+188,P2,图片,/products/engineer-1-on-1-training-support,1 张图片没有 alt 文字,649c4463bf83cf7be66bd4d99848c888.png,给每张图写一句描述图片内容的 alt(含机型名),未修
+189,P2,图片,/products/expand-x-2-filtrabox-replacement-filters,1 张图片没有 alt 文字,649c4463bf83cf7be66bd4d99848c888.png,给每张图写一句描述图片内容的 alt(含机型名),未修
+190,P2,图片,/products/expand-x-3-filtrabox-replacement-filters,1 张图片没有 alt 文字,649c4463bf83cf7be66bd4d99848c888.png,给每张图写一句描述图片内容的 alt(含机型名),未修
+191,P2,图片,/products/filtrabox-compact-x,1 张图片没有 alt 文字,649c4463bf83cf7be66bd4d99848c888.png,给每张图写一句描述图片内容的 alt(含机型名),未修
+192,P2,图片,/products/filtrabox-expand-x-2,1 张图片没有 alt 文字,649c4463bf83cf7be66bd4d99848c888.png,给每张图写一句描述图片内容的 alt(含机型名),未修
+193,P2,图片,/products/filtrabox-expand-x-3,1 张图片没有 alt 文字,649c4463bf83cf7be66bd4d99848c888.png,给每张图写一句描述图片内容的 alt(含机型名),未修
+194,P2,图片,/products/filtrabox-micro,1 张图片没有 alt 文字,649c4463bf83cf7be66bd4d99848c888.png,给每张图写一句描述图片内容的 alt(含机型名),未修
+195,P2,图片,/products/hydra-focal-lens-tube,2 张图片没有 alt 文字,01-hydra-lens-tube_dac0c38d-ce28-41bb-a3、649c4463bf83cf7be66bd4d99848c888.png,给每张图写一句描述图片内容的 alt(含机型名),未修
+196,P2,图片,/products/lightburn-software-pro-license-key,1 张图片没有 alt 文字,649c4463bf83cf7be66bd4d99848c888.png,给每张图写一句描述图片内容的 alt(含机型名),未修
+197,P2,图片,/products/micro-filtrabox-replacement-filters,1 张图片没有 alt 文字,649c4463bf83cf7be66bd4d99848c888.png,给每张图写一句描述图片内容的 alt(含机型名),未修
+198,P2,图片,/products/onelaser-automatic-conveyor-feeder,1 张图片没有 alt 文字,649c4463bf83cf7be66bd4d99848c888.png,给每张图写一句描述图片内容的 alt(含机型名),未修
+199,P2,图片,/products/onelaser-x-series-riser-base,1 张图片没有 alt 文字,649c4463bf83cf7be66bd4d99848c888.png,给每张图写一句描述图片内容的 alt(含机型名),未修
+200,P2,图片,/products/piburn-galvo-grip-rotary,1 张图片没有 alt 文字,649c4463bf83cf7be66bd4d99848c888.png,给每张图写一句描述图片内容的 alt(含机型名),未修
+201,P2,图片,/products/piburn-omni-for-onelaser,2 张图片没有 alt 文字,649c4463bf83cf7be66bd4d99848c888.png、Laser_Rotary_PiBurn_OMNI_2_102_1acee9b3-,给每张图写一句描述图片内容的 alt(含机型名),未修
+202,P2,图片,/products/piburn-v-for-onelaser,2 张图片没有 alt 文字,649c4463bf83cf7be66bd4d99848c888.png、Piburn-V.10-1024x640.webp,给每张图写一句描述图片内容的 alt(含机型名),未修
+203,P2,图片,/products/sales-consultation-call,1 张图片没有 alt 文字,649c4463bf83cf7be66bd4d99848c888.png,给每张图写一句描述图片内容的 alt(含机型名),未修
+204,P2,拼写,/blogs/topic/keychain-laser-engraving-machine,两个词连在一起,detailed engraving fillsthen RF-style beam,"detailed engraving fills, then RF-style beam",未修
+205,P2,拼写,/blogs/topic/keychain-laser-engraving-machine,两个词连在一起,gift tagscreate templates with,"gift tags, create templates with",未修
+206,P2,拼写,/blogs/topic/onelaser-xrf-review-best-of-ces,英式拼写(美国站),Motorised Laserhead,Motorized laser head,未修
+207,P2,文字,/,品牌名写成“ONELASER”3 处,ONELASER,OneLaser(全大写若是设计需要，请改用 CSS 大写),未修
+208,P2,文字,/blogs/topic,品牌名写成“ONELASER”11 处,ONELASER,OneLaser(全大写若是设计需要，请改用 CSS 大写),未修
+209,P2,文字,/blogs/topic,品牌名写成“One Laser”2 处,One Laser,OneLaser(全大写若是设计需要，请改用 CSS 大写),未修
+210,P2,文字,/blogs/topic/100w-laser-engraver-and-cutter,品牌名写成“ONELASER”4 处,ONELASER,OneLaser(全大写若是设计需要，请改用 CSS 大写),未修
+211,P2,文字,/blogs/topic/apa-expo,H1 里是过期年份 2025,"OneLaser’s Role in Revolutionizing Laser Technology at APA 2025
+                Image banner",改成 2026 或去掉年份,未修
+212,P2,文字,/blogs/topic/automatic-conveyor-feeder-installation,品牌名写成“ONELASER”7 处,ONELASER,OneLaser(全大写若是设计需要，请改用 CSS 大写),未修
+213,P2,文字,/blogs/topic/creative-fabrica-giveaway,品牌名写成“ONELASER”1 处,ONELASER,OneLaser(全大写若是设计需要，请改用 CSS 大写),未修
+214,P2,文字,/blogs/topic/fox-news-top-holiday-gift,H1 里是过期年份 2024,"Why FOX News Calls OneLaser 2024's Top Holiday Gift
+                Image banner",改成 2026 或去掉年份,未修
+215,P2,文字,/blogs/topic/hydra-gen2-and-hydra-series-comparison,品牌名写成“ONELASER”3 处,ONELASER,OneLaser(全大写若是设计需要，请改用 CSS 大写),未修
+216,P2,文字,/blogs/topic/laser-engraving-vs-laser-marking-vs-laser-cutting,品牌名写成“One Laser”1 处,One Laser,OneLaser(全大写若是设计需要，请改用 CSS 大写),未修
+217,P2,文字,/blogs/topic/leatherette-laser-comparison,品牌名写成“One Laser”1 处,One Laser,OneLaser(全大写若是设计需要，请改用 CSS 大写),未修
+218,P2,文字,/blogs/topic/merch-challenge,品牌名写成“ONELASER”1 处,ONELASER,OneLaser(全大写若是设计需要，请改用 CSS 大写),未修
+219,P2,文字,/blogs/topic/next-level-laser-conference,H1 里是过期年份 2025,"OneLaser at Next Level Laser Conference 2025: Innovation, Community, and the Future
+                Image banner",改成 2026 或去掉年份,未修
+220,P2,文字,/blogs/topic/onelaser-pepcom,H1 里是过期年份 2025,"OneLaser Debuts Game-Changing Lasers at Pepcom 2025
+                Image banner",改成 2026 或去掉年份,未修
+221,P2,文字,/blogs/topic/onelaser-xrf-review-best-of-ces,H1 里是过期年份 2025,"OneLaser XRF Brings Laser Engraving and Cutting To Your Desktop: Best of CES 2025
+                Image banner",改成 2026 或去掉年份,未修
+222,P2,文字,/collections/hydra-gen-2-rf-laser-engravers-cutters,品牌名写成“ONELASER”1 处,ONELASER,OneLaser(全大写若是设计需要，请改用 CSS 大写),未修
+223,P2,文字,/collections/mid-year-summer-sales,品牌名写成“ONELASER”1 处,ONELASER,OneLaser(全大写若是设计需要，请改用 CSS 大写),未修
+224,P2,文字,/pages/after-sales-service,品牌名写成“ONELASER”2 处,ONELASER,OneLaser(全大写若是设计需要，请改用 CSS 大写),未修
+225,P2,文字,/pages/community-videos,品牌名写成“ONELASER”22 处,ONELASER,OneLaser(全大写若是设计需要，请改用 CSS 大写),未修
+226,P2,文字,/pages/customer-feedback,品牌名写成“ONELASER”1 处,ONELASER,OneLaser(全大写若是设计需要，请改用 CSS 大写),未修
+227,P2,文字,/pages/laser-cutter-engraving-settings-for-different-materials,品牌名写成“ONELASER”1 处,ONELASER,OneLaser(全大写若是设计需要，请改用 CSS 大写),未修
+228,P2,文字,/pages/partners,品牌名写成“ONELASER”1 处,ONELASER,OneLaser(全大写若是设计需要，请改用 CSS 大写),未修
+229,P2,文字,/pages/product-pricing-delivery-changes,品牌名写成“ONELASER”4 处,ONELASER,OneLaser(全大写若是设计需要，请改用 CSS 大写),未修
+230,P2,文字,/pages/support-and-feedback,品牌名写成“ONELASER”3 处,ONELASER,OneLaser(全大写若是设计需要，请改用 CSS 大写),未修
+231,P2,文字,/pages/testimonials,品牌名写成“ONELASER”1 处,ONELASER,OneLaser(全大写若是设计需要，请改用 CSS 大写),未修
+232,P2,文字,/products/filtrabox-compact-x,品牌名写成“ONELASER”3 处,ONELASER,OneLaser(全大写若是设计需要，请改用 CSS 大写),未修
+233,P2,文字,/products/filtrabox-expand-x-2,品牌名写成“ONELASER”2 处,ONELASER,OneLaser(全大写若是设计需要，请改用 CSS 大写),未修
+234,P2,文字,/products/onelaser-hydra-16-cabinet-dual-laser-system-with150w-glass-tube-and-38w-rf-metal-tube,品牌名写成“ONELASER”2 处,ONELASER,OneLaser(全大写若是设计需要，请改用 CSS 大写),未修
+235,P2,文字,/products/onelaser-hydra-7-cabinet-dual-laser-system-with-80-glass-tube-and-38w-rf-metal-tube,品牌名写成“ONELASER”2 处,ONELASER,OneLaser(全大写若是设计需要，请改用 CSS 大写),未修
+236,P2,文字,/products/onelaser-hydra-9-laser-engraving-machine,品牌名写成“ONELASER”3 处,ONELASER,OneLaser(全大写若是设计需要，请改用 CSS 大写),未修
+237,P2,文字,/products/onelaser-industrial-chiller-for-hydra-laser-engraver,品牌名写成“ONELASER”1 处,ONELASER,OneLaser(全大写若是设计需要，请改用 CSS 大写),未修
+238,P2,文字,/products/onelaser-xrf-desktop-laser-machine,品牌名写成“ONELASER”1 处,ONELASER,OneLaser(全大写若是设计需要，请改用 CSS 大写),未修
+239,P2,文字,/products/onelaser-xt-desktop-laser-machine,品牌名写成“ONELASER”4 处,ONELASER,OneLaser(全大写若是设计需要，请改用 CSS 大写),未修
+240,P2,链接,/blogs/topic/best-laser-machines-for-custom-map,链接指向已删除的页面/商品，被跳到首页或全部商品,/products/onelaser-hydra-13-cabinet-dual-laser-system-with-130w-glass-tube-and-38wrf-metal-tube,改链到现在对应的页面,未修
+241,P2,链接,/blogs/topic/fox-news-top-holiday-gift,链接指向已删除的页面/商品，被跳到首页或全部商品,/pages/christmas-sale,改链到现在对应的页面,未修
+242,P2,链接,/blogs/topic/fox-news-top-holiday-gift,链接指向已删除的页面/商品，被跳到首页或全部商品,/pages/laser-engraver-cutter-sales,改链到现在对应的页面,未修
+243,P2,链接,/blogs/topic/hydra-13-review,链接指向已删除的页面/商品，被跳到首页或全部商品,/products/OneLaser-hydra-13-cabinet-dual-laser-system-with-130w-glass-tube-and-38wrf-metal-tube,改链到现在对应的页面,未修
+244,P2,链接,/blogs/topic/hydra-gen2-and-hydra-series-comparison,链接指向已删除的页面/商品，被跳到首页或全部商品,/products/onelaser-hydra-13-cabinet-dual-laser-system-with-130w-glass-tube-and-38wrf-metal-tube,改链到现在对应的页面,未修
+245,P2,链接,/blogs/topic/laser-accessories-for-laser-shop,链接经过跳转,/products/hydra-focal-lens-barrel,直接链到 /products/hydra-focal-lens-tube,未修
+246,P2,链接,/blogs/topic/laser-cutter-not-cutting,链接经过跳转,/products/hydra-focal-lens-barrel,直接链到 /products/hydra-focal-lens-tube,未修
+247,P2,链接,/blogs/topic/laser-engraver-upgrade,链接指向已删除的页面/商品，被跳到首页或全部商品,/products/onelaser-hydra-13-cabinet-dual-laser-system-with-130w-glass-tube-and-38wrf-metal-tube,改链到现在对应的页面,未修
+248,P2,链接,/blogs/topic/laser-engraving-cutting-acrylic-tips,链接经过跳转,/products/demo-host-brandt-workman-ut,直接链到 /products/engineer-1-on-1-training-support,未修
+249,P2,链接,/blogs/topic/laser-marking-machine-benefits,页面里的链接打不开(404),/blogs/topic/laser-marking-vs-laser-engraving,改链到正确页面或删除,未修
+250,P2,链接,/blogs/topic/next-level-laser-conference,链接经过跳转,/products/demo-host-david-degraaf-az,直接链到 /products/engineer-1-on-1-training-support,未修
+251,P2,链接,/blogs/topic/xrf-38w-rf-black-friday,页面里的链接打不开(404),/blogs/topic/tagged,改链到正确页面或删除,未修
+252,P2,链接,/pages/bfcm26,链接经过跳转,/pages/faq,直接链到 https://wiki.1laser.com/en/faq,未修
+253,P2,链接,/pages/sales-consultation,链接经过跳转,/pages/faq,直接链到 https://wiki.1laser.com/en/faq,未修
+254,P2,链接,/pages/troubleshooting,链接经过跳转,/pages/faq,直接链到 https://wiki.1laser.com/en/faq,未修

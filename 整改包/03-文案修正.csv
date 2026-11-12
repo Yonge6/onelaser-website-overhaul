@@ -1,0 +1,28 @@
+页面,字段,现在,改成,原因
+/collections/laser-engraving-cutting-marking-machines,SEO title,14 Best Laser Engraving Cutting Machines in 2026 - OneLaser,CO2 & RF Laser Engravers and Cutters for Business | OneLaser,标题写 14 台与实际在售机型不符
+/collections/laser-engraving-cutting-marking-machines,Meta description,(保留现有或更新),"Compare OneLaser's desktop and industrial CO2 and RF laser engravers: XRF, Cobra, Hydra Gen2 and VertiGo. U.S. engineer support, 3-2-1 warranty, financing.",写明系列与服务
+/pages/contact-us,H1,Contact us in a way that better suits your situation. Image banner,Contact OneLaser,H1 混入 Image banner；改短
+/pages/laser-engraving-community,H1,Welcome tothe OneLaser Community Hub Image banner,Welcome to the OneLaser Community,H1 混入 Image banner 且 to the 缺空格
+/pages/wood-laser-engraving-cutting-ideas,H1,Wood Laser Engraving & Cutting Ideas Image banner,Wood Laser Engraving & Cutting Ideas,H1 混入 Image banner
+/pages/trade-up,H1,What Sets OneLaser Apart? Everything.,Trade Up to a OneLaser,与对比页 H1 重复
+/pages/machine-comparison,H1,What Sets Onelaser Apart? Everything.,Compare OneLaser Laser Machines,品牌大小写错误；H1 应说明页面用途
+/pages/education,H1,(无),Laser Engravers for Schools & Universities,缺 H1
+/pages/sample-testing,H1,(无),Free Sample Material Testing,缺 H1
+/pages/sample-testing,SEO title,Sample Testing – OneLaser,Free Laser Sample Testing on Your Material | OneLaser,标题太短无关键词
+/pages/sample-testing,Meta description,(无),"Send us your material and our lab will test it on current OneLaser systems, return the pieces in 5–7 business days and recommend the right laser.",缺描述；内容取自页面本身
+/pages/onelaser-rewards,H1,(无),OneClub Rewards,缺 H1 且正文全靠插件
+/collections/limited-offers,H1,(无),Current Laser Deals,缺 H1
+/pages/support-and-feedback,Meta description,(568 字符),(页面将 301，无需修改),将合并到 Support Hub
+/collections/halloween-laser-sale-xrf-hydra9,Meta description,(271 字符),(页面将 301，无需修改),过期活动
+/collections/1-1-engineering-support,Meta description,(无),(页面将 301，无需修改),合并
+/pages/bfcm26,SEO title,Black Friday Deals: Up to $3000 Off Laser Engravers | OneLaser | OneLaser,Black Friday Deals: Up to $3000 Off Laser Engravers | OneLaser,标题里 OneLaser 重复两次
+/pages/about-us,H1 字号,20px,用全站 H1 样式,关于我们 H1 比正文小标题还小
+/pages/troubleshooting,SEO title,Laser Engraver Troubleshooting – OneLaser Support Hub,"OneLaser Support Hub: Manuals, Firmware, Troubleshooting & Tickets",将作为唯一 Support Hub
+/全部分类页,H1,Collection: xxx,xxx,模板默认前缀；改 main-collection-banner 区块
+/全部页面,SEO title,"xxx
+ – OneLaser",xxx | OneLaser,标题里有换行；统一分隔符为 |
+/pages/machine-comparison,正文,Original Price starting from $4295,(删除或改成读取商品价格),与商店价 $4499 不一致
+/pages/machine-comparison,正文,1500 mm/s (max speed),"1,200 mm/s",UI-SPEC 规定 XRF 公布速度为 1200 mm/s
+/pages/machine-comparison,正文,3 years (industry longest),"3-2-1 warranty: 3 yr frame, 2 yr electronics, 1 yr laser source",与保修政策不一致，“行业最长”无依据
+/pages/machine-comparison,正文,One Laser machines are built in the USA,(需老板确认后改为 Designed and engineered in the USA),与关税公告“多数产品从制造地发货”矛盾，有 FTC Made in USA 风险
+/pages/machine-comparison,正文,Up to 10 Faster ROI,(删除或补单位与依据),缺单位、无依据

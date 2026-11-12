@@ -1,0 +1,84 @@
+/* =====================================================================
+   OneLaser 全站统一字体与风格（整改包 02）
+   来源：onelaser-homepage-v4/UI-SPEC.md 的已定规范 + 线上主题 t/88 实测
+   用法：在【复制出来的主题】里新建 assets/onelaser-unified.css，
+        在 layout/theme.liquid 的 </head> 前、其他 CSS 之后引入：
+        {{ 'onelaser-unified.css' | asset_url | stylesheet_tag }}
+   不要直接改正在运行的主题。
+   ===================================================================== */
+
+/* ---------- 1. 字体：一个 Certia 家族，用字重区分 ----------
+   线上现状：6 个 @font-face 各自注册成独立字体名(Certia、Certia-Bold、
+   Certia-ExtraBold…)，且字重都写成 400，浏览器无法按字重挑选。
+   这里用同一批字体文件(已在 Shopify Files 中)注册成一个家族。 */
+@font-face { font-family: "Certia"; src: url(/cdn/shop/files/Certia-Regular.woff2?v=1788146323) format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Certia"; src: url(/cdn/shop/files/Certia-Medium.woff2?v=1788146324) format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Certia"; src: url(/cdn/shop/files/Certia-SemiBold.woff2?v=1788146324) format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "Certia"; src: url(/cdn/shop/files/Certia-Bold.woff2?v=1788146324) format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Certia"; src: url(/cdn/shop/files/Certia-ExtraBold.woff2?v=1788146324) format("woff2"); font-weight: 800; font-style: normal; font-display: swap; }
+@font-face { font-family: "Certia"; src: url(/cdn/shop/files/Certia-Black.woff2?v=1788146323) format("woff2"); font-weight: 900; font-style: normal; font-display: swap; }
+
+/* ---------- 2. 设计变量（与 V4 UI-SPEC 一致） ---------- */
+:root {
+  --ol-font: "Certia", Arial, sans-serif;
+
+  /* 颜色：品牌红用于 Logo/强调，行动红用于按钮与价格 */
+  --ol-brand-red: #E7310E;
+  --ol-action-red: #D92D0D;
+  --ol-action-red-pressed: #BF260B;
+  --ol-red-tint: #FFF7F4;
+  --ol-text: #000000;
+  --ol-text-2: #6B6B70;
+  --ol-text-3: #8E8E93;
+  --ol-surface: #FFFFFF;
+  --ol-surface-2: #F5F5F7;
+  --ol-border: #D2D2D7;
+  --ol-border-soft: #E5E5EA;
+
+  /* 字号阶梯（桌面） */
+  --ol-display: 72px;
+  --ol-h1: 32px;          /* 商品页 H1；营销页 H1 用 --ol-display */
+  --ol-h2: 48px;
+  --ol-h3: 28px;
+  --ol-body-lg: 18px;
+  --ol-body: 16px;
+  --ol-label: 13px;
+  --ol-caption: 12px;     /* 全站最小字号，禁止 11px 及以下 */
+
+  --ol-radius-sm: 12px;
+  --ol-radius-card: 24px;
+  --ol-radius-pill: 999px;
+}
+@media (max-width: 749px) {
+  :root { --ol-display: 44px; --ol-h2: 32px; --ol-h3: 23px; --ol-body-lg: 17px; }
+}
+
+/* ---------- 3. 全站基础排版 ---------- */
+body, button, input, select, textarea { font-family: var(--ol-font); }
+body { font-size: var(--ol-body); font-weight: 400; color: var(--ol-text); line-height: 1.6; }
+h1, .h1 { font-family: var(--ol-font); font-weight: 800; font-size: var(--ol-h1); line-height: 1.06; }
+h2, .h2 { font-family: var(--ol-font); font-weight: 800; font-size: var(--ol-h2); line-height: 1.1; letter-spacing: -0.01em; }
+h3, .h3 { font-family: var(--ol-font); font-weight: 800; font-size: var(--ol-h3); line-height: 1.2; }
+small, .caption { font-size: var(--ol-caption); }
+
+/* ---------- 4. 旧字体名 ----------
+   base.css 里旧的 6 个 @font-face(Certia-Bold、Certia-ExtraBold…)先保留，
+   页面区块里约 700 处写死的旧名字仍能正常显示。Codex 按任务卡 C2 把它们
+   逐个替换成 font-family: var(--ol-font) + font-weight 后，再删除旧 @font-face。 */
+
+/* ---------- 5. 按钮：只保留两种 ---------- */
+.button, .btn, button.shopify-payment-button__button--unbranded {
+  font-family: var(--ol-font); font-weight: 800; font-size: 16px;
+  min-height: 52px; padding: 0 28px; border-radius: var(--ol-radius-pill);
+  background: var(--ol-action-red); color: #fff; border: 0;
+}
+.button:hover, .btn:hover { background: var(--ol-action-red-pressed); }
+.button--secondary, .btn--secondary {
+  min-height: 46px; background: #fff; color: var(--ol-text); border: 1px solid var(--ol-text);
+}
+.price, .price-item--sale, .price-item--regular { color: var(--ol-action-red); font-weight: 800; }
+
+/* ---------- 6. 第三方插件跟随品牌字体 ----------
+   Almarai 来自表单插件配置，Poppins / Francois One 来自联盟推荐条配置，
+   根本做法是去各插件后台把字体改成“继承/Theme font”；这里先兜底。 */
+[class*="judgeme"], [class*="jdgm"], [class*="scp"], [class*="uppromote"], [class*="secomapp"] { font-family: var(--ol-font) !important; }
